@@ -27,4 +27,12 @@ public final class Constants {
     // measured from the horizontal
     public static final double kArmOffsetRads = 0.5;
   }
+
+  public static final class OIConstants {
+    public static final int kDriverControllerPort = 0;
+    public static final int kArmControllerPort = 0;
+
+    public static final int kAButton = 0;
+    public static final int kBButton = 1;
+  }
 }
